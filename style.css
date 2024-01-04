@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -21,9 +21,11 @@ body {
 button {
     background-color: red;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bolder;
+    height: 80px;
+    width: 100px;
 }
 
 p {
