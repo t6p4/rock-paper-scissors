@@ -50,15 +50,3 @@ function playRound(userChoice) {
 }
 }
 
-function game() {
-    for(let i = 0; i < 5; i++) {
-        playRound()
-    } 
-    if (userScore > computerScore) {
-        console.log(`You are victorious! Your score is ${userScore}, while your opponent has ${computerScore} points`)
-    } else if (computerScore > userScore) {
-        console.log(`You lost! Your score is ${userScore}, while your opponent has ${computerScore} points`)
-    } else {
-        console.log(`It's a tie! You both have ${userScore} points!`)
-    }
-}
